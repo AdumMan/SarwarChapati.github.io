@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 3px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 3px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 20px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="ToyotaHybrid.webp">
+      <img src="ToyotaHybrid.webp" alt="Toyota Hybrid">
+    </a>
+    <div class="desc">A Toyota hybrid car combines a traditional internal combustion engine with an electric motor to provide improved fuel efficiency and reduced emissions. The hybrid system seamlessly switches between the two power sources based on driving conditions, optimizing performance and efficiency. Toyota’s hybrid cars feature components such as a petrol engine, electric motor, generator, power control unit, and a power split device to manage power distribution effectively. The batteries in Toyota hybrids are designed to last long and can be charged through regenerative braking or by the petrol engine.</div>
+  </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="RangeRover.webp">
+        <img src="RangeRover.webp" alt="Forest">
+      </a>
+      <div class="desc">a powerful and streamlined vehicle that combines advanced technological capabilities with a stunning new look. This metallic color, paired with the awe-inspiring exterior design of the Range Rover Sport, epitomizes modern luxury. The interior of the Santorini Black Range Rover Sport offers sleek and bold options, from material choices to SV carbon fiber finishes, rear seat infotainment systems, and luxurious additions like the Hot Climate pack for privacy glass and in-car refrigeration.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="Mercedes.webp">
+        <img src="Mercedes.webp" alt="Northern Lights">
+      </a>
+      <div class="desc">BMW cars are known for their luxury, performance, and innovative technology. They typically feature sleek designs, high-quality materials, and advanced driving dynamics. BMW offers a wide range of vehicles, from compact sedans like the 3 Series to luxury SUVs like the X5. Many BMW models come with powerful engines, state-of-the-art infotainment systems, and driver-assistance features. Overall, a BMW car is often synonymous with elegance, precision engineering, and a thrilling driving experience.</div>
+    </div>
+</div>
